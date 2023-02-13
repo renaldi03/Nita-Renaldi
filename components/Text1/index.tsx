@@ -3,7 +3,7 @@ export default function Text1() {
     <div className="text-marriage">
       <p>
         “Happy marriages begin when we marry the ones we love, and they blossom
-        when we love the ones we<br></br>marry.”
+        when we love the ones we marry.”
       </p>
     </div>
   );
