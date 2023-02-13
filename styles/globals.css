@@ -501,6 +501,12 @@
     height: 200px;
   }
 
+  .text-marriage p{
+    left: 200px;
+    right: 300px;
+    width: 60%;
+  }
+
   .photo1 img{
     width: 320px;
   }
@@ -557,7 +563,7 @@
 
   .section-location{
     margin-top: -3rem;
-    width: 320px;
+    width: 100vw;
     height: 250px;
   }
 
@@ -589,7 +595,7 @@
 
   .location-akad p{
     position: absolute;
-    margin-left: 45px;
+    margin-left: 95px;
     text-align: center;
     margin-top: -90px;
     font-size: 10px;
@@ -597,18 +603,18 @@
  
 
   .section-foto-location1{
-  width: 100px;
+  width: 100vw;
 
   }
 
   .section-foto-location1 img{ 
-  width: 320px;
+  width: 100vw;
   }
 
   .shadow-foto1 { 
   position: absolute;
-  width: 320px;
-  height: 180px;
+  width: 100vw;
+  height: 250px;
   margin-top: 250px;
   }
 
@@ -617,14 +623,14 @@
   }
 
   .section-location-resepsi{
-    width: 320px;
+    width: 100vw;
     height: 250px;
-    margin-top: 180px;
+    margin-top: 232px;
   }
 
   .resepsi h1{
     position: absolute;
-    margin-left: 120px;
+    margin-left: 160px;
     font-size: 20px;
     margin-top: -190px;
   }
@@ -633,12 +639,12 @@
     font-size: 10px;
     position: absolute;
     margin-top: -150px;
-    margin-left: 115px;
+    margin-left: 155px;
   }
 
   .location-resepsi h1{
     font-size: 20px;
-    margin-left: 60px;
+    margin-left: 102px;
     position: absolute;
     margin-top: -130px;
   }
@@ -647,7 +653,7 @@
     position: absolute;
     font-size: 10px;
     margin-top: -90px;
-    margin-left: 40px;
+    margin-left: 85px;
   }
 
   .location-resepsi p {
@@ -655,20 +661,20 @@
   }
 
   .shadow-foto2{
-    height: 180px;
-    width: 320px;
+    height: 235px;
+    width: 100vw;
     margin-top: 250px;
   }
 
   .section-foto-location2 img{
-    width: 320px;
+    width: 100vw;
     margin-top: 250px;
   }
 
   .section-cutdown{
-    width: 320px;
+    width: 100vw;
     height: 140px;
-    margin-top: 120px;
+    margin-top: 183px;
   }
 
   .section-cutdown h1 {
@@ -768,19 +774,19 @@
   .shadow-hastag{
     margin-top: 2px;
     position: absolute;
-    width: 320px;
-    height: 211px!important;
+    width: 100vw;
+    height: 278px!important;
   }
 
   .shadow-hastag h3{
     font-size: 25px;
-    margin-top: 100px;
+    margin-top: 130px;
     margin-left: -2px;
   }
 
   .shadow-hastag p{
     font-size: 6px;
-    margin-top: 160px;
+    margin-top: 130px;
   }
 
   .gallery{
@@ -788,7 +794,7 @@
   }
 
   .responsive-galery{
-    left: -420px;
+    left: -380px;
   }
   
   .responsive-galery img{
@@ -801,7 +807,7 @@
 
   .section-footer{
     top: 10px;
-    left: 100px;
+    left: 150px;
     position: relative;
   }
 
