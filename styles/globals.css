@@ -319,9 +319,11 @@
   width: 100vw;
   text-align: center;
   top: 45%;
+  color: white;
 }
 .shadow-hastag p{
   top: 45%;
+  color: white;
 }
 
 .text-quote2{
@@ -655,7 +657,7 @@
   .shadow-foto2{
     height: 180px;
     width: 320px;
-    margin-top: 1000px;
+    margin-top: 250px;
   }
 
   .section-foto-location2 img{
@@ -764,16 +766,21 @@
   }
 
   .shadow-hastag{
+    margin-top: 2px;
+    position: absolute;
     width: 320px;
-    height: 214px;
+    height: 211px!important;
   }
 
   .shadow-hastag h3{
     font-size: 25px;
+    margin-top: 100px;
+    margin-left: -2px;
   }
 
   .shadow-hastag p{
     font-size: 6px;
+    margin-top: 160px;
   }
 
   .gallery{
@@ -808,6 +815,7 @@
   .copyright p{
     font-size: 7px;
     left: 15px;
+    margin-top: 50px;
   }
 
 }

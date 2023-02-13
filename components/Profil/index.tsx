@@ -6,7 +6,7 @@ export default function Profil() {
         <h4>Nita Pratna, S.M</h4>
         <br></br>
         <p>
-          Putri dari<br></br>Bapak Edy Muhtar<br></br>& Ibu Rufiah
+          Putri pertama dari<br></br>Bapak Edy Muhtar<br></br>& Ibu Rufiah
         </p>
       </div>
       <div className="pemisah">
@@ -17,7 +17,7 @@ export default function Profil() {
         <h4>Renaldi, S.Kom</h4>
         <br></br>
         <p>
-          Putra dari<br></br>Bapak Dadi Supriyadi<br></br>& Ibu Nuraini
+          Putra pertama dari<br></br>Bapak Dadi Supriyadi<br></br>& Ibu Nuraini
         </p>
       </div>
     </div>
