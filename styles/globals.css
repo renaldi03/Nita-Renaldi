@@ -33,13 +33,13 @@
 }
 
 .text-header1 h1 { 
-  color: white;
+  color: white!important;
   font-size: 100px;
   text-align: center;
   align-items: center;
 }
 .text-header1 h2{
-  color: white;
+  color: white!important;
   margin-left: 10rem;
   margin-top: 2rem;
 }
@@ -55,13 +55,13 @@
 }
 
 .text-quran h3{
-  color: white;
+  color: white!important;
 }
 
 .section-text-quran h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  color: white;
+  color: white!important;
 }
 
 .photo1 {
@@ -319,11 +319,11 @@
   width: 100vw;
   text-align: center;
   top: 45%;
-  color: white;
+  color: white!important;
 }
 .shadow-hastag p{
   top: 45%;
-  color: white;
+  color: white!important;
 }
 
 .text-quote2{
