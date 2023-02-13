@@ -447,6 +447,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .text-header1 h1{
     font-size: 2rem;
+    color: white;
   }
 
   .text-header1 h2{
@@ -456,6 +457,7 @@
     align-items: center;
     margin-left: 1px;
     margin-top: 1rem;
+    color:white;
   }
 
   .text-quran h3{
