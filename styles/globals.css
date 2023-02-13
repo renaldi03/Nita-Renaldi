@@ -308,7 +308,7 @@
   height: 557px!important;
   position: absolute;
   width: 100vw;
-  height: 1280px;
+  height: 200px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.609375) 68.75%, #000000 100%);;
 }
 
@@ -468,9 +468,9 @@
   }
 
   .text-marriage p{
-    left: 200px;
-    right: 300px;
-    width: 60%;
+    margin-left: 200px;
+    margin-right: 400px;
+    width: 100vw;
   }
 
   .photo1 img{
@@ -528,7 +528,7 @@
   }
 
   .section-location{
-    margin-top: -3rem;
+    margin-top: -5rem;
     width: 100vw;
     height: 250px;
   }
@@ -556,12 +556,12 @@
     font-size: 20px;
     position:absolute;
     margin-top: -130px;
-    margin-left: -100px;
+    margin-left: -105px;
   }
 
   .location-akad p{
     position: absolute;
-    margin-left: 95px;
+    margin-left: 120px;
     text-align: center;
     margin-top: -90px;
     font-size: 10px;
@@ -596,7 +596,7 @@
 
   .resepsi h1{
     position: absolute;
-    margin-left: 160px;
+    margin-left: 205px;
     font-size: 20px;
     margin-top: -190px;
   }
@@ -605,12 +605,12 @@
     font-size: 10px;
     position: absolute;
     margin-top: -150px;
-    margin-left: 155px;
+    margin-left: 200px;
   }
 
   .location-resepsi h1{
     font-size: 20px;
-    margin-left: 102px;
+    margin-left: 140px;
     position: absolute;
     margin-top: -130px;
   }
@@ -619,7 +619,7 @@
     position: absolute;
     font-size: 10px;
     margin-top: -90px;
-    margin-left: 85px;
+    margin-left: 120px;
   }
 
   .location-resepsi p {
@@ -640,7 +640,7 @@
   .section-cutdown{
     width: 100vw;
     height: 140px;
-    margin-top: 183px;
+    margin-top: 179px;
   }
 
   .section-cutdown h1 {
@@ -738,10 +738,10 @@
   }
 
   .shadow-hastag{
-    margin-top: 2px;
+    margin-top: 8px;
     position: absolute;
     width: 100vw;
-    height: 278px!important;
+    height: 320px!important;
   }
 
   .shadow-hastag h3{
@@ -757,10 +757,11 @@
 
   .gallery{
     display: block;
+    margin-top: 0px;
   }
 
   .responsive-galery{
-    left: -380px;
+    left: -335px;
   }
   
   .responsive-galery img{
@@ -768,26 +769,29 @@
   }
   .footer{
     height: 100px;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .section-footer{
     top: 10px;
-    left: 150px;
-    position: relative;
+    width: 100vw;
   }
 
   .section-footer p{
     font-size: 10px;
     margin-top: 20px;
-    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 100vw;
+    margin: 0px;
     padding-top: -50px;
   }
 
   .copyright p{
     font-size: 7px;
     left: 15px;
-    margin-top: 50px;
+    margin-top:-10px;
+
   }
 
 }
