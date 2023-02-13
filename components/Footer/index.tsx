@@ -7,7 +7,7 @@ export default function Footer() {
         </p>
         <br></br>
         <div className="copyright">
-          <p>&copy; all right reserved by Renaldi</p>
+          <p>&copy; all right reserved by.....</p>
         </div>
       </div>
     </div>

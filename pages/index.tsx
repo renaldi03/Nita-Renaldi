@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Canvas from "../components/Canvas";
 import Header from "../components/Header";
 import AfterHeader from "../components/AfterHeader";
 import Text1 from "../components/Text1";
@@ -19,16 +20,26 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/13.png" />
       </Head>
-      <Header />
-      <AfterHeader />
-      <Text1 />
-      <Profil />
-      <Location />
-      <Cutdown />
-      <Gift />
-      <SectionHastag />
-      <Gallery />
-      <Footer />
+      <section>
+        <Canvas />
+        <Header />
+        <AfterHeader />
+        <Text1 />
+        <Profil />
+        <Location />
+        <Cutdown />
+        <Gift />
+        <SectionHastag />
+        <Gallery />
+        <Footer />
+        {/* 
+        
+        
+        
+        
+        
+        */}
+      </section>
     </>
   );
 }
