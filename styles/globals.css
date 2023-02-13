@@ -421,7 +421,7 @@
   top: 50%;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   
   .text-header1 h1{
     font-size: 2rem;
@@ -796,6 +796,78 @@
 
 }
 
+
+@media (max-width: 480px) {
+
+  .text-marriage p {
+    width: 280px;
+  }
+
+
+  .shadow-hastag{
+    margin-top:0 ;
+    height: 215px!important;
+  }
+
+  .responsive-galery {
+    align-items: center;
+    left: -415px;
+  }
+
+  .responsive-galery img{
+    margin-left: -100px;
+    padding-left: 100px;
+  }
+
+  .location-akad p{
+    margin-left: 40px;
+  }
+
+  .shadow-foto1{
+    height: 178px;
+  }
+
+  .section-location-resepsi{
+    margin-top: 177px;
+  }
+
+  .resepsi h1{
+    margin-left: 130px;
+  }
+  
+  .resepsi p{
+    margin-left: 123px;
+  }
+
+  .location-resepsi h1{
+    margin-left: 70px;
+  }
+
+  .location-resepsi p{
+    margin-left: 55px;
+  }
+
+  .shadow-foto2{
+    height: 178px;
+  }
+
+  .section-cutdown{
+    margin-top: 123px;
+  }
+
+  .shadow-hastag h3{
+    margin-top: 100px;
+  }
+  
+  .shadow-hastag p {
+    margin-top: 155px;
+  }
+
+  .section-footer p{
+    margin-left: -20px;
+  }
+
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark!important;

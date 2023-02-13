@@ -4,7 +4,7 @@ export default function Header() {
       <div className="shadow">
         <div className="text-header1">
           <h1>Nita & Aldi</h1>
-          <h2>20 February 2023</h2>
+          <h2>25 February 2023</h2>
         </div>
       </div>
     </div>

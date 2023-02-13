@@ -4,9 +4,10 @@ export default function SectionHastag() {
       <div className="shadow-hastag">
         <h3>#NitaAldi</h3>
         <p>
-          Sebarkan momenti indah di instagram<br></br>dan tidak lupa tandai kami
+          Sebarkan momentum indah di instagram<br></br>dan tidak lupa tandai
+          kami
           <br></br>
-          @renaldiii @ntprtn
+          @ntprtn @renaldiii
         </p>
       </div>
       <img src="hastag.png" />
