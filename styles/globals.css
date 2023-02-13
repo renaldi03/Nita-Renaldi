@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  color: black;
 }
 
 .header{
@@ -32,11 +33,13 @@
 }
 
 .text-header1 h1 { 
+  color: white;
   font-size: 100px;
   text-align: center;
   align-items: center;
 }
 .text-header1 h2{
+  color: white;
   margin-left: 10rem;
   margin-top: 2rem;
 }
@@ -51,9 +54,14 @@
   text-align: center;
 }
 
+.text-quran h3{
+  color: white;
+}
+
 .section-text-quran h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  color: white;
 }
 
 .photo1 {
@@ -419,7 +427,7 @@
   }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .section-location{
     margin-top: -3rem!important;
     width: 320px;
@@ -440,12 +448,13 @@
 
   .shadow-hastag{
     width: 100vw!important;
-    height: 320px!important;
-  }
+    height: 320px!important; */
+  /* } */
 
-}
+/* } */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  
   .text-header1 h1{
     font-size: 2rem;
     color: white;
