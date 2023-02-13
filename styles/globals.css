@@ -421,40 +421,6 @@
   top: 50%;
 }
 
-@media (max-width: 320px) {
-  .section-location{
-    margin-top: -5rem!important;
-    width: 320px;
-    height: 250px;
-  }
-}
-
-/* @media (max-width: 480px) {
-  .section-location{
-    margin-top: -3rem!important;
-    width: 320px;
-    height: 250px;
-  }
-
-  .section-foto-location2 img{
-    margin-top: -1px;
-  }
-
-  .shadow-foto2{
-    position: absolute!important;
-  }
-
-  .gift {
-    margin-top: -40px!important;
-  }
-
-  .shadow-hastag{
-    width: 100vw!important;
-    height: 320px!important; */
-  /* } */
-
-/* } */
-
 @media (min-width: 320px) and (max-width: 480px) {
   
   .text-header1 h1{
