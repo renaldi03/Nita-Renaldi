@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ReactAudioPlayer from "react-audio-player";
 import Canvas from "../components/Canvas";
 import Header from "../components/Header";
 import AfterHeader from "../components/AfterHeader";
@@ -19,6 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/13.png" />
       </Head>
+      {/* <ReactAudioPlayer src="music.mp3" autoPlay controls /> */}
       <section>
         <Canvas />
         <Header />

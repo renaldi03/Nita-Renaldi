@@ -5,8 +5,9 @@
   width: 420px;
 
 }
-
-
+audio{
+  allow : autoplay;
+}
 section {
   background-color: #0a0a0a!important;
   margin: auto;
@@ -290,6 +291,10 @@ section {
   width: 10px;
 }
 
+.days h4{
+  margin-left: -5px!important;
+}
+
 .hours{
   width: 10px;
 }
@@ -301,6 +306,7 @@ section {
 .seconds{
   width: 10px;
 }
+
 
 .cutdown h3{
   position: relative;
