@@ -10,7 +10,7 @@ export default function Gift() {
         <a>
           <img src="bank.png" />
           <p>
-            a.n Renaldi<br></br>BCA : 2950234761 a/n RENALDI
+            a.n Renaldi<br></br>2950234761
           </p>
         </a>
       </div>
