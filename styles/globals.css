@@ -7,7 +7,7 @@
 }
 
 section {
-  background-color: white!important;
+  background-color: #0a0a0a!important;
   margin: auto;
   width: 420px;
 }
@@ -107,7 +107,7 @@ section {
 .ppcewek{
   align-items: center;
   text-align: center;
-  color: black;
+  color: white;
 }
 
 
@@ -138,7 +138,7 @@ section {
 .ppcowok{
   align-items: center;
   text-align: center;
-  color:black;
+  color:white;
 }
 
 .ppcowok p{
@@ -314,6 +314,7 @@ section {
 }
 
 .gift{
+  color: white;
   position: absolute;
   width: auto;
   height: 200px;
@@ -329,7 +330,7 @@ section {
 
 .gift p {
   position: relative;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .logo-gift{
