@@ -1,7 +1,7 @@
 export default function Profil() {
   return (
     <div className="profil">
-      <div className="ppcewek">
+      <div className="ppcewek" data-aos="fade-right">
         <img src="ppcewek2.png" />
         <h4>Nita Pratna, S.M</h4>
         <br></br>
@@ -12,7 +12,7 @@ export default function Profil() {
       <div className="pemisah">
         <p>&</p>
       </div>
-      <div className="ppcowok">
+      <div className="ppcowok" data-aos="fade-left">
         <img src="ppcowok2.png" />
         <h4>Renaldi, S.Kom</h4>
         <br></br>

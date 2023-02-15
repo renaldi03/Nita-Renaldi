@@ -56,6 +56,21 @@ section {
 
 }
 
+.text-quote2{
+  color: white;
+  position: absolute;
+  margin-top: 2000px;
+
+}
+
+.text-quote2 img{
+  width: 11px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  left: 200px;
+}
+
 .text-quran h3{
   margin-top: 40px;
   position: absolute;
@@ -265,7 +280,7 @@ section {
   background: #bdc2e0;
   width: auto;
   height: 100px;
-  margin-top: 2000px;
+  margin-top: 2100px;
 }
 
 .section-cutdown h1 {
@@ -323,7 +338,7 @@ section {
   position: absolute;
   width: auto;
   height: 200px;
-  margin-top: 2150px;
+  margin-top: 2225px;
 }
 
 .gift h1, p {
@@ -372,7 +387,7 @@ section {
 .hastag-section{
   position: absolute;
   margin: 0;
-  margin-top: 2300px;
+  margin-top: 2350px;
 }
 
 .shadow-hastag{
@@ -394,17 +409,19 @@ section {
   margin-top: 120px;
   color: white;
   font-size: 40px;
+  opacity: 0.5;
 }
 
 .hastag-section p{
   margin-top: -5px;
   color: white;
   font-size: 10px;
+  opacity: 0.5;
 }
 
 .gallery{
   position:absolute;
-  margin-top: 2700px;
+  margin-top: 2750px;
 }
 
 .responsive-galery{
@@ -433,7 +450,7 @@ section {
   position: relative;
   background-color: #bdc2e0;
   color: black;
-  margin-top: 3000px;
+  margin-top: 3020px;
   height: 150px;
 }
 

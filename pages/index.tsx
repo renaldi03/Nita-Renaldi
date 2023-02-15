@@ -1,9 +1,12 @@
 import Head from "next/head";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import ReactAudioPlayer from "react-audio-player";
 import Canvas from "../components/Canvas";
 import Header from "../components/Header";
 import AfterHeader from "../components/AfterHeader";
 import Text1 from "../components/Text1";
+import Text2 from "../components/Text2";
 import Profil from "../components/Profil";
 import Location from "../components/Location";
 import Cutdown from "../components/Cutdown";
@@ -11,8 +14,14 @@ import Gift from "../components/Gift";
 import SectionHastag from "../components/SectionHastag";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
+import Maps from "../components/maps";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <Head>
@@ -29,9 +38,11 @@ export default function Home() {
         <Profil />
         <Location />
         <Cutdown />
+        <Text2 />
         <Gift />
         <SectionHastag />
         <Gallery />
+        {/* <Maps /> */}
         <Footer />
       </section>
     </>
