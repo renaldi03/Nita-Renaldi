@@ -19,9 +19,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/13.png" />
       </Head>
-      <audio>
-        <source src="music.mp3" type="audio.mpeg" />
-      </audio>
       <section>
         <Canvas />
         <Header />
