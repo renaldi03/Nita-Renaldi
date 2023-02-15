@@ -60,9 +60,11 @@ section {
   color: white;
   position: absolute;
   margin-top: 2000px;
-
 }
 
+.text-quote2 p{
+  opacity: 0.8;
+}
 .text-quote2 img{
   width: 11px;
   position: relative;
@@ -107,6 +109,7 @@ section {
   align-items: center;
   height: 100px;
   margin-top: 25px;
+  opacity: 0.8;
 }
 
 .profil{
