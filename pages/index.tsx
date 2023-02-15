@@ -2,7 +2,6 @@ import Head from "next/head";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ReactAudioPlayer from "react-audio-player";
-import Canvas from "../components/Canvas";
 import Header from "../components/Header";
 import AfterHeader from "../components/AfterHeader";
 import Text1 from "../components/Text1";
@@ -31,7 +30,6 @@ export default function Home() {
       </Head>
       {/* <ReactAudioPlayer src="music.mp3" autoPlay controls /> */}
       <section>
-        <Canvas />
         <Header />
         <AfterHeader />
         <Text1 />
