@@ -80,10 +80,11 @@ section {
 
 .text-marriage{
   position:absolute;
-  margin: 0;
+  margin: ;
   text-align: center;
   align-items: center;
   height: 100px;
+  color: white;
 }
 
 .text-marriage p {
