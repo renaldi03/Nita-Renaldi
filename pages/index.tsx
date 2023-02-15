@@ -28,7 +28,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/13.png" />
       </Head>
-      {/* <ReactAudioPlayer src="music.mp3" autoPlay controls /> */}
+      <iframe src="music.mp3" allow="autoplay" id="iframeAudio"></iframe>
       <section>
         <Header />
         <AfterHeader />
