@@ -360,9 +360,12 @@ section {
   width: 40px;
 }
 .logo-gift p {
-  position: absolute;
+  width: 60px;
+  position: relative;
   color: black;
-  left: 0;
+  align-items: center;
+  left: 2px;
+  font-weight: 50px;
 
 }
 

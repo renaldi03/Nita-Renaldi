@@ -10,7 +10,13 @@ export default function Gift() {
         <a>
           <img src="bank.png" />
           <p>
-            a.n Renaldi<br></br>2950234761
+            a/n Nita Pratna<br></br>290095230
+          </p>
+        </a>
+        <a>
+          <img src="bank.png" />
+          <p>
+            a/n Renaldi<br></br>2950234761
           </p>
         </a>
       </div>
