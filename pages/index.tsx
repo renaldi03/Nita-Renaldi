@@ -31,7 +31,7 @@ export default function Home() {
       </Head>
       <section>
         <audio controls loop autoPlay={true}>
-          <source src="music.mp3" type="audio/mp3" />
+          <source src="music.mp3" type="audio/mpeg" />
         </audio>
         <Header />
         <AfterHeader />
