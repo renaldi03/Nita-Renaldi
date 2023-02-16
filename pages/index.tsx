@@ -42,6 +42,7 @@ export default function Home() {
         <Cutdown />
         <Text2 />
         <Gift />
+        ``
         <SectionHastag />
         <Gallery />
         <Maps />

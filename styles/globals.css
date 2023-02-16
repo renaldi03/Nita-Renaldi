@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Aref+Ruqaa+Ink&family=Caveat:wght@500&family=Emilys+Candy&family=Gruppo&family=Lobster+Two:ital@1&family=Noto+Sans:wght@500&family=Roboto+Mono&family=WindSong:wght@500&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
@@ -38,6 +41,7 @@ iframe{
   margin-top: 3030px;
   font-size: 25px;
   font-weight:400;
+  font-family: 'Emilys Candy', cursive;
 }
 
 
@@ -52,7 +56,20 @@ iframe{
   position: relative;
   display: flex;
   flex-direction: column;
+}
 
+.header img{
+  width: 150px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.line  {
+  opacity: 0.3;
+  width: 20px;
 }
 
 .shadow{
@@ -69,6 +86,11 @@ iframe{
   color: white;
   top: 77%;
   font-size: 16px;
+  font-family: 'Lobster Two', cursive;
+}
+
+.text-header1 h1{
+  font-size: 50px;
 }
 
 .section-text-quran{
@@ -77,6 +99,7 @@ iframe{
   align-items: center;
   text-align: center;
   background-color: black;
+  font-family: 'Noto Sans', sans-serif;;
 }
 
 .text-quran{
@@ -93,6 +116,7 @@ iframe{
 
 .text-quote2 p{
   opacity: 0.8;
+  font-family: 'Caveat', cursive;
 }
 .text-quote2 img{
   width: 11px;
@@ -140,6 +164,7 @@ iframe{
   height: 100px;
   margin-top: 25px;
   opacity: 0.8;
+  font-family: 'Caveat', cursive;
 }
 
 .profil{
@@ -148,7 +173,7 @@ iframe{
   height: 150px;
   color: white;
   position: absolute;
-  margin-top: 160px;
+  margin-top: 130px;
 
 }
 
@@ -160,6 +185,7 @@ iframe{
 
 .ppcewek p{
   margin-top: -10px;
+  font-size: 12px;
 }
 
 
@@ -172,7 +198,7 @@ iframe{
 
 .pemisah{
   height: 150px;
-  font-size: 50px;
+  font-size: 60px;
   color: white;
   align-items: center;
   text-align: center;
@@ -195,10 +221,19 @@ iframe{
 
 .ppcowok p{
   margin-top: -10px;
+  font-size: 12px;
 }
 .ppcowok img{
   margin-bottom: 10px;
   width: 150px;
+}
+
+.profil h4{
+  font-family: 'Aref Ruqaa Ink', serif
+}
+
+.profil p{
+  font-family: 'Aref Ruqaa Ink', serif;
 }
 
 .section-location{
@@ -208,6 +243,7 @@ iframe{
   margin: auto;
   background-color: #bdc2e0;
   margin-top: 950px;
+  font-family: 'Gruppo', cursive;
 }
 
 .location-date-akad{
@@ -260,10 +296,6 @@ iframe{
   margin-top: 170px;
 }
 
-.section-foto-location1{
-  position: none;
-}
-
 .shadow-foto1{
   position: absolute;
   margin: auto;
@@ -275,7 +307,8 @@ iframe{
   margin: auto;
   position:absolute;
   background-color: #bdc2e0;
-  margin-top: 1450px;
+  margin-top: 1430px;
+  font-family: 'Gruppo', cursive;
 }
 
 .location-date-resepsi{
@@ -331,6 +364,7 @@ iframe{
   width: auto;
   height: 100px;
   margin-top: 2100px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .section-cutdown h1 {
@@ -354,7 +388,7 @@ iframe{
 }
 
 .days h4{
-  margin-left: -5px!important;
+  margin-left: -10px!important;
 }
 
 .hours{
@@ -391,6 +425,10 @@ iframe{
   margin-top: 2225px;
 }
 
+.gift h1 {
+  font-family: 'Emilys Candy', cursive;
+}
+
 .gift h1, p {
   position: relative;
   text-align: center;
@@ -401,6 +439,7 @@ iframe{
 .gift p {
   position: relative;
   font-size: 10px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .logo-gift{
@@ -507,6 +546,7 @@ iframe{
 .section-footer{
   position: relative;
   font-size: 15px;
+  font-family: 'Caveat', cursive;
 }
 
 .section-footer p {
@@ -541,7 +581,7 @@ iframe{
 .cowo p {
   position: absolute;
   margin-left: 30px;
-  margin-top: -3px ;
+  margin-top: -5px ;
 }
 
 
