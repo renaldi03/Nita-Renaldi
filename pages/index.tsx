@@ -30,7 +30,7 @@ export default function Home() {
         <link rel="icon" href="/13.png" />
       </Head>
       <section>
-        <audio controls loop autoPlay={true}>
+        <audio controls loop autoPlay>
           <source src="music.mp3" type="audio/mpeg" />
           <source src="music.wav" type="audio/wav" />
         </audio>
