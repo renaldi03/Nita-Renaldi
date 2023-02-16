@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   margin: auto;
+  align-items: center;
   width: 420px;
 
 }
@@ -15,7 +16,7 @@ iframe{
   width: 415px;
   height: 250px;
   left: 140px;
-  margin-top: 3070px;
+  margin-top: 3065px;
   position: absolute;
   align-items: center;
   text-align: center;
@@ -493,7 +494,7 @@ locat
   position: relative;
   background-color: #bdc2e0;
   color: black;
-  margin-top: 3324px;
+  margin-top: 3319px;
   height: 60px;
 }
 
