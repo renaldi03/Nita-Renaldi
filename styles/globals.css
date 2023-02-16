@@ -260,12 +260,14 @@ iframe{
   margin-top: 170px;
 }
 
-locat
+.section-foto-location1{
+  position: none;
+}
 
 .shadow-foto1{
   position: absolute;
   margin: auto;
-  height: 250px;
+  height: 240px;
   background : linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.609375) 70.83%, #000000 100%);
 }
 
