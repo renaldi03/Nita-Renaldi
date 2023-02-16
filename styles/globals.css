@@ -7,6 +7,10 @@
 
 }
 
+audio{
+  display: none;
+}
+
 section {
   background-color: #0a0a0a!important;
   margin: auto;
