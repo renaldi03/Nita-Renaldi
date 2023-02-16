@@ -45,9 +45,8 @@ export default function Home() {
         <Cutdown />
         <Text2 />
         <Gift />
-        ``
         <SectionHastag />
-        <Gallery />
+        {/* <Gallery /> */}
         <Maps />
         <Footer />
       </section>
