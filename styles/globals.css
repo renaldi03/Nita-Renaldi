@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Aref+Ruqaa+Ink&family=Caveat:wght@500&family=Emilys+Candy&family=Gruppo&family=Lobster+Two:ital@1&family=Noto+Sans:wght@500&family=Roboto+Mono&family=WindSong:wght@500&display=swap');
 
-html{
-  display: block;
-}
 * {
   padding: 0;
   margin: 0;
@@ -19,6 +16,7 @@ audio{
 section {
   background-color: #0a0a0a!important;
   margin: auto;
+  position:relative;
 }
 
 iframe{
@@ -583,6 +581,3 @@ iframe{
   margin-left: 30px;
   margin-top: -5px ;
 }
-
-
-

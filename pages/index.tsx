@@ -26,10 +26,7 @@ export default function Home() {
     <>
       <Head>
         <title>Nita & Aldi</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/13.png" />
       </Head>
       <section>
@@ -46,7 +43,7 @@ export default function Home() {
         <Text2 />
         <Gift />
         <SectionHastag />
-        {/* <Gallery /> */}
+        <Gallery />
         <Maps />
         <Footer />
       </section>
