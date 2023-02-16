@@ -32,6 +32,7 @@ export default function Home() {
       <section>
         <audio controls loop autoPlay={true}>
           <source src="music.mp3" type="audio/mpeg" />
+          <source src="music.wav" type="audio/wav" />
         </audio>
         <Header />
         <AfterHeader />
