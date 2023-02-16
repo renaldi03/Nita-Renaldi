@@ -29,8 +29,7 @@ export default function Home() {
         <link rel="icon" href="/13.png" />
       </Head>
       <section>
-        <audio controls autoPlay loop muted>
-          <source src="music.ogg" type="audio/ogg" />
+        <audio controls autoPlay preload="auto">
           <source src="music.mp3" type="audio/mpeg" />
         </audio>
         <Header />
