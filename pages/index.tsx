@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,8 +30,8 @@ export default function Home() {
         <link rel="icon" href="/13.png" />
       </Head>
       <section>
-        <audio controls autoPlay preload="auto">
-          <source src="music.mp3" type="audio/mpeg" />
+        <audio controls loop autoPlay={true}>
+          <source src="music.mp3" type="audio/mp3" />
         </audio>
         <Header />
         <AfterHeader />
