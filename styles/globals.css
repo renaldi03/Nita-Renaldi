@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Aref+Ruqaa+Ink&family=Caveat:wght@500&family=Emilys+Candy&family=Gruppo&family=Lobster+Two:ital@1&family=Noto+Sans:wght@500&family=Roboto+Mono&family=WindSong:wght@500&display=swap');
 
-
+html{
+  display: block;
+}
 * {
   padding: 0;
   margin: 0;
@@ -64,13 +66,10 @@ iframe{
   text-align: center;
   align-items: center;
   margin: auto;
-  margin-bottom: 10px;
+  padding-bottom: 300;
+  margin-top: -100px;
 }
 
-.line  {
-  opacity: 0.3;
-  width: 20px;
-}
 
 .shadow{
   position: relative;
@@ -91,6 +90,7 @@ iframe{
 
 .text-header1 h1{
   font-size: 50px;
+  margin-top: -5px;
 }
 
 .section-text-quran{
@@ -128,7 +128,7 @@ iframe{
 
 .text-quran h3{
   height: 100px;
-  margin-top: 10px;
+  margin-top: 30px;
   position: absolute;
   align-items: center;
   text-align: center;
