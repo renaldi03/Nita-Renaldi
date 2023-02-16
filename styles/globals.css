@@ -6,7 +6,6 @@
   margin: auto;
   align-items: center;
   width: 420px;
-
 }
 
 audio{
@@ -46,7 +45,7 @@ iframe{
 
 
 .header{
-  background-image: url(../public//header1.png);
+  background-image: url(../public//header1.png)!important;
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center top;
