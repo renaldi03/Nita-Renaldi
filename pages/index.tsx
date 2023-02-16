@@ -1,7 +1,6 @@
 import Head from "next/head";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ReactAudioPlayer from "react-audio-player";
 import Header from "../components/Header";
 import AfterHeader from "../components/AfterHeader";
 import Text1 from "../components/Text1";
@@ -21,6 +20,7 @@ export default function Home() {
     AOS.init();
     // AOS.refresh();
   }, []);
+
   return (
     <>
       <Head>
@@ -28,7 +28,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/13.png" />
       </Head>
-      <iframe src="music.mp3" allow="autoplay" id="iframeAudio"></iframe>
       <section>
         <Header />
         <AfterHeader />
@@ -40,7 +39,7 @@ export default function Home() {
         <Gift />
         <SectionHastag />
         <Gallery />
-        {/* <Maps /> */}
+        <Maps />
         <Footer />
       </section>
     </>

@@ -4,10 +4,10 @@ export default function AfterHeader() {
       <div className="text-quran">
         <h3 data-aos="fade-up">
           “Dan di antara tanda-tanda kekuasaan Allah ialah diciptakan-Nya
-          untukmu pasangan hidup dari jenismu <br></br> sendiri supaya kamu
+          untukmu pasangan hidup dari jenismu sendiri <br></br>supaya kamu
           merasa tentram di samping-Nya dan dijadikan-Nya rasa kasih sayang di
-          antara<br></br> kamu. Sesungguhnya yang demikian itu menjadi bukti
-          kekuasaan Allah bagi kaum yang berfikir.“
+          antara <br></br> kamu. Sesungguhnya yang demikian itu menjadi bukti
+          kekuasaan <br></br> Allah bagi kaum yang berfikir.“
         </h3>
         <h2 data-aos="fade-up">(QS. ArRum 21)</h2>
       </div>

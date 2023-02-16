@@ -4,8 +4,14 @@ export default function Footer() {
       <div className="section-footer">
         <p>{/* Backsound by : <br></br>Adele - Make You Fell My Love */}</p>
         {/* <br></br> */}
+        <img src="hand.png" />
         <div className="copyright">
-          <p>&copy; all right reserved by.....</p>
+          <div className="cewe">
+            <p>NITA</p>
+          </div>
+          <div className="cowo">
+            <p>ALDI</p>
+          </div>
         </div>
       </div>
     </div>

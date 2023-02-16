@@ -11,6 +11,31 @@ section {
   margin: auto;
 }
 
+iframe{
+  width: 415px;
+  height: 250px;
+  left: 140px;
+  margin-top: 3070px;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  left: 0;
+
+}
+
+.googleMap{
+  position: absolute;
+  color: white;
+}
+
+.googleMap p{
+  position: absolute;
+  margin-top: 3030px;
+  font-size: 25px;
+  font-weight:400;
+}
+
+
 
 .header{
   background-image: url(../public//header1.png);
@@ -73,11 +98,12 @@ section {
 }
 
 .text-quran h3{
-  margin-top: 40px;
+  height: 100px;
+  margin-top: 10px;
   position: absolute;
   align-items: center;
   text-align: center;
-  font-size: 6px;
+  font-size: 8px;
 }
 
 .text-quran h2{
@@ -103,7 +129,7 @@ section {
 }
 
 .text-marriage p {
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
   align-items: center;
   height: 100px;
@@ -183,6 +209,15 @@ section {
   height: 250px;
 }
 
+.location-date-akad a{
+  margin-top: 20px;
+}
+
+.location-date-akad button {
+  margin-top: 230px;
+}
+
+
 .akad{
   position: relative;
   text-align: center;
@@ -192,13 +227,13 @@ section {
 .akad h1{
   font-size: 19px;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .akad p{
   font-size: 12px;
   position: absolute;
-  margin-top: 125px;
+  margin-top: 90px;
 
 }
 
@@ -211,14 +246,16 @@ section {
 .location-akad h1 {
   font-size: 19px;
   position: absolute;
-  margin-top: 170px;
+  margin-top: 140px;
 }
 
 .location-akad p {
   font-size: 12px;
   position: absolute;
-  margin-top: 195px;
+  margin-top: 170px;
 }
+
+locat
 
 .shadow-foto1{
   position: absolute;
@@ -246,14 +283,14 @@ section {
 
 .resepsi h1{
   position: absolute;
-  margin-top: 100px;
+  margin-top: 60px;
   font-size: 19px;
 }
 
 .resepsi p {
   position: absolute;
   font-size: 12px;
-  margin-top:130px
+  margin-top: 90px;
 }
 
 .location-resepsi{
@@ -265,13 +302,13 @@ section {
 .location-resepsi h1{
   font-size: 19px;
   position: absolute;
-  margin-top: 170px;
+  margin-top: 140px;
 }
 
 .location-resepsi p{
   font-size: 12px;
   position: absolute;
-  margin-top: 195px;
+  margin-top: 170px;
 }
 
 .shadow-foto2{
@@ -456,8 +493,8 @@ section {
   position: relative;
   background-color: #bdc2e0;
   color: black;
-  margin-top: 3020px;
-  height: 150px;
+  margin-top: 3324px;
+  height: 60px;
 }
 
 .section-footer{
@@ -472,477 +509,33 @@ section {
   width: auto;
 }
 
-.copyright p {
-  top: 60px;
-}
-
-
-
-/* 
-
-
-.footer{
-  width: 100vw;
-  height: 200px;
-  color: black;
-  background-color: white;
-}
-
-.section-footer{
+.section-footer img{
+  margin-top: 20px;
+  width: 25px;
+  left: 200px;
   position: relative;
+  align-items: center;
   text-align: center;
-  top: 50%;
 }
-
-@media (max-width: 480px) {
-  
-  .text-header1 h1{
-    font-size: 2rem;
-    color: white;
-  }
-
-  .text-header1 h2{
-    font-size: 1rem;
-    position: relative;
-    text-align: center;
-    align-items: center;
-    margin-left: 1px;
-    margin-top: 1rem;
-    color:white;
-  }
-
-  .text-quran h3{
-    font-size: 6px;
-    margin-top: -10rem;
-    align-items: center;
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-
-  }
-
-  .section-text-quran{
-    margin-top: 240px;
-  }
-  .text-quran h2 {
-    margin-top: 1rem;
-    font-size: 10px;
-  }
-  
-  .photo1{
-    margin-top: -10px;
-  }
-
-  .shadow-afterheader{
-    width: 320px;
-    margin-bottom: 200px;
-    margin-top:-20px;
-    height: 200px;
-  }
-
-  .text-marriage p{
-    margin-left: 200px;
-    margin-right: 400px;
-    width: 100vw;
-  }
-
-  .photo1 img{
-    width: 320px;
-  }
-  
-  .text-marriage{
-    margin-top: 360px;
-    height: 150px;
-  }
-
-  .text-marriage p {
-    font-size: 10px;
-    margin-left: 5px;
-    margin-right: 10px;
-  }
-
-  .profil {
-    margin-top: -130px;
-    height: 250px;
-  }
-  .profil img {
-    width: 60px;
-  }
-
-  .pemisah {
-    width: 20px;
-  }
-  .pemisah p{ 
-    font-size: 40px;
-  }
-
-  .ppcewek{
-    align-items: center;
-    text-align: center;
-  }
-
-  .profil h4{
-    font-size: 12px;
-  }
-
-  .pemisah{
-    margin-top: 18px;
-  }
-
-  .pemisah p{
-    font-size: 40px!important;
-  }
-
-  .profil p{
-    font-size: 9px;
-    padding: 5px;
-    margin:2px;
-    margin-top: -18px;
-  }
-
-  .section-location{
-    margin-top: -5rem;
-    width: 100vw;
-    height: 250px;
-  }
-
-  .akad h1{
-    font-size: 20px;
-    color: black;
-    margin-top: -190px;
-    position:absolute;
-    margin-left: -62px;
-  }
-
-  .akad p{
-    margin-top: -135px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size : 10px;
-    padding: 0;
-    position:absolute;
-   }
-
-
-  .location-akad h1{ 
-    color: black;
-    font-size: 20px;
-    position:absolute;
-    margin-top: -130px;
-    margin-left: -105px;
-  }
-
-  .location-akad p{
-    position: absolute;
-    margin-left: 120px;
-    text-align: center;
-    margin-top: -90px;
-    font-size: 10px;
-  }
- 
-
-  .section-foto-location1{
-  width: 100vw;
-
-  }
-
-  .section-foto-location1 img{ 
-  width: 100vw;
-  }
-
-  .shadow-foto1 { 
+.copyright{
+  height: 60px;
+  top: -8px;
   position: absolute;
-  width: 100vw;
-  height: 250px;
-  margin-top: 250px;
-  }
+  display: flex;
+  justify-content: space-around;
+}
 
-  .section-foto-location1 img{
-  margin-top: 249px;
-  }
+.cewe p {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -5px;
+}
 
-  .section-location-resepsi{
-    width: 100vw;
-    height: 250px;
-    margin-top: 232px;
-  }
-
-  .resepsi h1{
-    position: absolute;
-    margin-left: 205px;
-    font-size: 20px;
-    margin-top: -190px;
-  }
-
-  .resepsi p {
-    font-size: 10px;
-    position: absolute;
-    margin-top: -150px;
-    margin-left: 200px;
-  }
-
-  .location-resepsi h1{
-    font-size: 20px;
-    margin-left: 140px;
-    position: absolute;
-    margin-top: -130px;
-  }
-
-  .location-resepsi p {
-    position: absolute;
-    font-size: 10px;
-    margin-top: -90px;
-    margin-left: 120px;
-  }
-
-  .location-resepsi p {
-    font-size: 10px;
-  }
-
-  .shadow-foto2{
-    height: 235px;
-    width: 100vw;
-    margin-top: 250px;
-  }
-
-  .section-foto-location2 img{
-    width: 100vw;
-    margin-top: 250px;
-  }
-
-  .section-cutdown{
-    width: 100vw;
-    height: 140px;
-    margin-top: 179px;
-  }
-
-  .section-cutdown h1 {
-    font-size: 15px;
-    position: absolute;
-    margin-top: 19px;
-  }
-
-  .cutdown{
-    position: relative;
-    margin-left: 0px;
-    margin-right: 15px;
-  }
-
-  .days {
-    width: 5px;
-    font-size: 25px;
-    margin-top: -70px;
-  }
-
-  .hours {
-    width: 5px;
-    font-size: 25px;
-    margin-top: -70px;
-  }
-
-  .mins {
-    width: 5px;
-    font-size: 25px;
-    margin-top: -70px;
-  }
-
-  .seconds {
-    width: 5px;
-    font-size: 25px;
-    margin-top: -70px;
-  }
-
-  .cutdown h4{
-    font-size: 10px;
-  }
-
-  .days h4 {
-    margin-left: -1px;
-  }
-
-  .hours h4 {
-    margin-left: -5px;
-  }
-
-  .mins h4{
-    margin-left: -7px;
-  }
-
-  .seconds h4 {
-    margin-left: -7px;
-  }
-
-  .gift {
-    margin-top: -71px;
-    height: 250px;
-  }
-
-  .gift h1{
-    font-size: 20px;
-    margin-top: -140px;
-    position:relative;
-    padding: 10px;
-    margin: 0;
-  }
-
-  .gift p{
-    position: absolute;
-    font-size: 8px;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .logo-gift {
-    margin-top: -35px;
-  }
-
-  .logo-gift a{
-    position: relative;
-    margin-top: 120px;
-    width: 50px;
-    height: 50px;
-  }
-
-  .logo-gift img{
-    width: 20px;
-    margin-top: -25px;
-    position: absolute;
-  }
-
-  .shadow-hastag{
-    margin-top: 8px;
-    position: absolute;
-    width: 100vw;
-    height: 320px!important;
-  }
-
-  .shadow-hastag h3{
-    font-size: 25px;
-    margin-top: 130px;
-    margin-left: -2px;
-  }
-
-  .shadow-hastag p{
-    font-size: 6px;
-    margin-top: 130px;
-  }
-
-  .gallery{
-    display: block;
-    margin-top: 0px;
-  }
-
-  .responsive-galery{
-    left: -335px;
-  }
-  
-  .responsive-galery img{
-    width: 80px;
-  }
-  .footer{
-    height: 100px;
-    margin-top: 0px;
-  }
-
-  .section-footer{
-    top: 10px;
-    width: 100vw;
-  }
-
-  .section-footer p{
-    font-size: 10px;
-    margin-top: 20px;
-    top: 15px;
-    left: 20px;
-    width: 100vw;
-    margin: 0px;
-    padding-top: -50px;
-  }
-
-  .copyright p{
-    font-size: 7px;
-    left: 15px;
-    margin-top:-10px;
-
-  }
-
+.cowo p {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -3px ;
 }
 
 
-@media (max-width: 480px) {
 
-  .text-marriage p {
-    width: 280px;
-  }
-
-
-  .shadow-hastag{
-    margin-top:0 ;
-    height: 250px!important;
-  }
-
-  .responsive-galery {
-    align-items: center;
-    left: -415px;
-  }
-
-  .responsive-galery img{
-    margin-left: -100px;
-    padding-left: 100px;
-  }
-
-  .location-akad p{
-    margin-left: 40px;
-  }
-
-  .shadow-foto1{
-    height: 178px;
-  }
-
-  .section-location-resepsi{
-    margin-top: 177px;
-  }
-
-  .resepsi h1{
-    margin-left: 130px;
-  }
-  
-  .resepsi p{
-    margin-left: 123px;
-  }
-
-  .location-resepsi h1{
-    margin-left: 70px;
-  }
-
-  .location-resepsi p{
-    margin-left: 55px;
-  }
-
-  .shadow-foto2{
-    height: 178px;
-  }
-
-  .section-cutdown{
-    margin-top: 123px;
-  }
-
-  .shadow-hastag h3{
-    margin-top: 100px;
-  }
-  
-  .shadow-hastag p {
-    margin-top: 155px;
-  }
-
-  .section-footer p{
-    margin-left: -20px;
-  }
-
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark!important;
-  }
-} */
