@@ -52,7 +52,7 @@ iframe{
   background-position: center;
   margin: 0;
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .header img{
