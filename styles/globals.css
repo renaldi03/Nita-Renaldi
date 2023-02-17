@@ -45,7 +45,7 @@ iframe{
 
 
 .header{
-  background-image: url(../public/header/header1.jpeg);
+  background-image: url(/header1.png);
   background-size:cover!important;
   background-repeat: no-repeat;
   background-position: center!important;
