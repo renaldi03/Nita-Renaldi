@@ -45,13 +45,13 @@ iframe{
 
 
 .header{
-  background-image: url("../public/header1.png")!important;
+  background-image: url(../public/header/header1.jpeg);
   background-size:cover!important;
   background-repeat: no-repeat;
   background-position: center!important;
   margin: 0;
   height: 100vh;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 .header img{
