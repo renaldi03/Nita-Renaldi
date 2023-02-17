@@ -29,6 +29,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/13.png" />
       </Head>
+      <audio controls loop autoPlay>
+        <source src="music.mp3" type="audio/mpeg" />
+        <source src="music.wav" type="audio/wav" />
+      </audio>
       <section>
         <Header />
         <AfterHeader />
@@ -43,10 +47,6 @@ export default function Home() {
         <Maps />
         <Footer />
       </section>
-      <audio controls loop autoPlay>
-        <source src="music.mp3" type="audio/mpeg" />
-        <source src="music.wav" type="audio/wav" />
-      </audio>
     </>
   );
 }
