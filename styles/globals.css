@@ -48,7 +48,7 @@ iframe{
   background-image: url(/header1.png);
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   margin: 0;
   height: 100vh;
 }
