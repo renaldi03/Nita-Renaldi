@@ -42,18 +42,15 @@ iframe{
   font-family: 'Emilys Candy', cursive;
 }
 
-
-
-.header{
+.shadow{
   background-image: url(../public/header1.png)!important;
   background-size:cover!important;
   background-repeat: no-repeat;
   background-position: center!important;
   margin: 0;
   height: 100vh;
-  display: relative;
-  /* background-attachment: fixed; */
 }
+
 
 .header img{
   width: 150px;
